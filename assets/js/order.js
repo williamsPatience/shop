@@ -206,6 +206,7 @@ window.addEventListener('load', () => {
         axios({
             method: 'POST',
             header: {
+                
                 crossDomain:"true",
                 "Access-Control-Allow-Origin": "*",
             },
